@@ -1,0 +1,45 @@
+ul {
+  color: dodgerblue;
+  list-style-type: upper-alpha;
+}
+ol {
+  color: blue;
+  list-style-type: lower-alpha;
+}
+h1 {
+  color: red;
+}
+h3 {
+  color: green;
+}
+article > h3 {
+  color: gold;
+}
+p {
+  padding: 10px;
+}
+article > p {
+  padding: 30px;
+  color: gray;
+}
+footer > p {
+  font-size: smaller;
+}
+article > ul {
+  color: hotpink;
+  list-style-type: square;
+}
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: lightgrey;
+}
+nav > ul > li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  width: 60px;
+}
