@@ -1,0 +1,47 @@
+body {
+  background-color: darkgray;
+}
+header {
+  background-color: gray;
+}
+main,
+aside > h1 {
+  text-align: center;
+}
+main {
+  background-color: beige;
+  width: 60%;
+  float: left;
+}
+
+aside {
+  background-color: cadetblue;
+  width: 30%;
+  float: right;
+}
+#dog {
+  width: 200px;
+  float: left;
+  padding: 8px;
+  margin: 5px;
+}
+#dog-pup {
+  width: 200px;
+  height: 150px;
+  float: left;
+  padding: 1px;
+  margin: 8px;
+}
+footer {
+  clear: both;
+  padding: 15px;
+}
+aside ul li {
+  list-style-type: none;
+  padding: 5%;
+  border-bottom: 1px solid black;
+  width: 50px;
+}
+aside > ul {
+  padding: 0%;
+}

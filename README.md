@@ -6,6 +6,8 @@ This is a website about ranking my basketball and football players
 
 It will also have another with cats and Nav Bar
 
+Worked on CSS layout
+
 It will contain a variety of HTML tags and CSS rules.
 
 ## Built With

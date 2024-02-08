@@ -40,6 +40,6 @@ nav > ul > li a {
   display: block;
   color: black;
   padding: 8px 16px;
-  text-decoration: none;
+  /* text-decoration: none; */
   width: 60px;
 }
