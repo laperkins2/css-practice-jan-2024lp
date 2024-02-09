@@ -4,20 +4,19 @@ body {
 header {
   background-color: gray;
 }
-main,
-aside > h1 {
-  text-align: center;
-}
+
 main {
   background-color: beige;
-  width: 60%;
+  width: 75%;
   float: left;
+  text-align: center;
 }
 
 aside {
   background-color: cadetblue;
-  width: 30%;
+  width: 22%;
   float: right;
+  text-align: center;
 }
 #dog {
   width: 200px;
@@ -37,11 +36,7 @@ footer {
   padding: 15px;
 }
 aside ul li {
-  list-style-type: none;
+  list-style-type: circle;
   padding: 5%;
-  border-bottom: 1px solid black;
-  width: 50px;
-}
-aside > ul {
-  padding: 0%;
+  text-align: left;
 }
